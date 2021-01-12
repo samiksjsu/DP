@@ -1,0 +1,7 @@
+Steps to solve:
+
+1. Use 2 pointers, i and j. i is fast and j is slow.
+2. Take substring from j to i. For ex, substring 4 till 7.
+3. Whenever we find any word that is the dict, we check if the word till 4 was found. If yes, we mark 7 as also found.
+4. Using DP we take small chunks of the substrings and mark true if found, so that all substrings from that point onwards can reference this.
+5. Finally, we check index in the found vector and return.

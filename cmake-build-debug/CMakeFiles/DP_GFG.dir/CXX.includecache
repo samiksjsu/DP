@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/samik/CLionProjects/DP_GFG/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+set
+-
+unordered_set
+-
+unordered_map
+-
+
