@@ -83,6 +83,9 @@
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/139. Word Break/bottom-up.cpp">
 			<Option target="DP_GFG"/>
 		</Unit>
+		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/17. Letter Combinations of a Phone Number/backtrack.cpp">
+			<Option target="DP_GFG"/>
+		</Unit>
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/332. Coin Change/bottom-up-tabulation.cpp">
 			<Option target="DP_GFG"/>
 		</Unit>

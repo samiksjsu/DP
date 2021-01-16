@@ -1,8 +1,5 @@
-#include <iostream>
 #include <vector>
-#include <algorithm>
-#include <set>
-#include <unordered_set>
+#include <iostream>
 #include <unordered_map>
 
 using namespace std;
@@ -11,7 +8,7 @@ vector<string> result;
 
 void helper(vector<string> &words, int start, string curr) {
     if(start == words.size()) {
-        result.push_back(curr);
+        if(curr.length()) result.push_back(curr);
         return;
     }
 
@@ -24,19 +21,17 @@ void helper(vector<string> &words, int start, string curr) {
     }
 }
 
-int main() {
-
-    string digits = "23";
+vector<string> letterCombinations(string digits) {
     unordered_map<int, string> m;
 
-    m[1] = "abc";
-    m[2] = "def";
-    m[3] = "ghi";
-    m[4] = "jkl";
-    m[5] = "mno";
-    m[6] = "pqrs";
-    m[7] = "tuv";
-    m[8] = "wxyz";
+    m[2] = "abc";
+    m[3] = "def";
+    m[4] = "ghi";
+    m[5] = "jkl";
+    m[6] = "mno";
+    m[7] = "pqrs";
+    m[8] = "tuv";
+    m[9] = "wxyz";
 
     vector<string> words;
 
@@ -46,5 +41,5 @@ int main() {
 
     helper(words, 0, "");
 
-    cout << "Hello" << endl;
+    return result;
 }
