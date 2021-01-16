@@ -92,6 +92,12 @@
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/332. Coin Change/top-down-memoization.cpp">
 			<Option target="DP_GFG"/>
 		</Unit>
+		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/all_headers.h">
+			<Option target="DP_GFG"/>
+		</Unit>
+		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/ds/ds.cpp">
+			<Option target="DP_GFG"/>
+		</Unit>
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/main.cpp">
 			<Option target="DP_GFG"/>
 		</Unit>

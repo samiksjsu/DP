@@ -250,6 +250,33 @@ DP_GFG/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/332._Coin_Change/top-down-memoization.cpp.s
 .PHONY : 332._Coin_Change/top-down-memoization.cpp.s
 
+ds/ds.obj: ds/ds.cpp.obj
+
+.PHONY : ds/ds.obj
+
+# target to build an object file
+ds/ds.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/ds/ds.cpp.obj
+.PHONY : ds/ds.cpp.obj
+
+ds/ds.i: ds/ds.cpp.i
+
+.PHONY : ds/ds.i
+
+# target to preprocess a source file
+ds/ds.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/ds/ds.cpp.i
+.PHONY : ds/ds.cpp.i
+
+ds/ds.s: ds/ds.cpp.s
+
+.PHONY : ds/ds.s
+
+# target to generate assembly for a file
+ds/ds.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/ds/ds.cpp.s
+.PHONY : ds/ds.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -298,6 +325,9 @@ help:
 	@echo ... 332._Coin_Change/top-down-memoization.obj
 	@echo ... 332._Coin_Change/top-down-memoization.i
 	@echo ... 332._Coin_Change/top-down-memoization.s
+	@echo ... ds/ds.obj
+	@echo ... ds/ds.i
+	@echo ... ds/ds.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
