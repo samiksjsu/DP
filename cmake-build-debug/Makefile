@@ -196,6 +196,33 @@ DP_GFG/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/17._Letter_Combinations_of_a_Phone_Number/backtrack.cpp.s
 .PHONY : 17._Letter_Combinations_of_a_Phone_Number/backtrack.cpp.s
 
+22._Generate_Parentheses/backtrack.obj: 22._Generate_Parentheses/backtrack.cpp.obj
+
+.PHONY : 22._Generate_Parentheses/backtrack.obj
+
+# target to build an object file
+22._Generate_Parentheses/backtrack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/22._Generate_Parentheses/backtrack.cpp.obj
+.PHONY : 22._Generate_Parentheses/backtrack.cpp.obj
+
+22._Generate_Parentheses/backtrack.i: 22._Generate_Parentheses/backtrack.cpp.i
+
+.PHONY : 22._Generate_Parentheses/backtrack.i
+
+# target to preprocess a source file
+22._Generate_Parentheses/backtrack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/22._Generate_Parentheses/backtrack.cpp.i
+.PHONY : 22._Generate_Parentheses/backtrack.cpp.i
+
+22._Generate_Parentheses/backtrack.s: 22._Generate_Parentheses/backtrack.cpp.s
+
+.PHONY : 22._Generate_Parentheses/backtrack.s
+
+# target to generate assembly for a file
+22._Generate_Parentheses/backtrack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/22._Generate_Parentheses/backtrack.cpp.s
+.PHONY : 22._Generate_Parentheses/backtrack.cpp.s
+
 332._Coin_Change/bottom-up-tabulation.obj: 332._Coin_Change/bottom-up-tabulation.cpp.obj
 
 .PHONY : 332._Coin_Change/bottom-up-tabulation.obj
@@ -250,32 +277,32 @@ DP_GFG/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/332._Coin_Change/top-down-memoization.cpp.s
 .PHONY : 332._Coin_Change/top-down-memoization.cpp.s
 
-ds/ds.obj: ds/ds.cpp.obj
+91._Decode_Ways/bottom_up.obj: 91._Decode_Ways/bottom_up.cpp.obj
 
-.PHONY : ds/ds.obj
+.PHONY : 91._Decode_Ways/bottom_up.obj
 
 # target to build an object file
-ds/ds.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/ds/ds.cpp.obj
-.PHONY : ds/ds.cpp.obj
+91._Decode_Ways/bottom_up.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/91._Decode_Ways/bottom_up.cpp.obj
+.PHONY : 91._Decode_Ways/bottom_up.cpp.obj
 
-ds/ds.i: ds/ds.cpp.i
+91._Decode_Ways/bottom_up.i: 91._Decode_Ways/bottom_up.cpp.i
 
-.PHONY : ds/ds.i
+.PHONY : 91._Decode_Ways/bottom_up.i
 
 # target to preprocess a source file
-ds/ds.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/ds/ds.cpp.i
-.PHONY : ds/ds.cpp.i
+91._Decode_Ways/bottom_up.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/91._Decode_Ways/bottom_up.cpp.i
+.PHONY : 91._Decode_Ways/bottom_up.cpp.i
 
-ds/ds.s: ds/ds.cpp.s
+91._Decode_Ways/bottom_up.s: 91._Decode_Ways/bottom_up.cpp.s
 
-.PHONY : ds/ds.s
+.PHONY : 91._Decode_Ways/bottom_up.s
 
 # target to generate assembly for a file
-ds/ds.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/ds/ds.cpp.s
-.PHONY : ds/ds.cpp.s
+91._Decode_Ways/bottom_up.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/91._Decode_Ways/bottom_up.cpp.s
+.PHONY : 91._Decode_Ways/bottom_up.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -319,15 +346,18 @@ help:
 	@echo ... 17._Letter_Combinations_of_a_Phone_Number/backtrack.obj
 	@echo ... 17._Letter_Combinations_of_a_Phone_Number/backtrack.i
 	@echo ... 17._Letter_Combinations_of_a_Phone_Number/backtrack.s
+	@echo ... 22._Generate_Parentheses/backtrack.obj
+	@echo ... 22._Generate_Parentheses/backtrack.i
+	@echo ... 22._Generate_Parentheses/backtrack.s
 	@echo ... 332._Coin_Change/bottom-up-tabulation.obj
 	@echo ... 332._Coin_Change/bottom-up-tabulation.i
 	@echo ... 332._Coin_Change/bottom-up-tabulation.s
 	@echo ... 332._Coin_Change/top-down-memoization.obj
 	@echo ... 332._Coin_Change/top-down-memoization.i
 	@echo ... 332._Coin_Change/top-down-memoization.s
-	@echo ... ds/ds.obj
-	@echo ... ds/ds.i
-	@echo ... ds/ds.s
+	@echo ... 91._Decode_Ways/bottom_up.obj
+	@echo ... 91._Decode_Ways/bottom_up.i
+	@echo ... 91._Decode_Ways/bottom_up.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

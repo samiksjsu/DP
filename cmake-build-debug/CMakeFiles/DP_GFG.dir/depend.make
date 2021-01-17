@@ -5,6 +5,8 @@ CMakeFiles/DP_GFG.dir/139._Word_Break/bottom-up.cpp.obj: ../139.\ Word\ Break/bo
 
 CMakeFiles/DP_GFG.dir/17._Letter_Combinations_of_a_Phone_Number/backtrack.cpp.obj: ../17.\ Letter\ Combinations\ of\ a\ Phone\ Number/backtrack.cpp
 
+CMakeFiles/DP_GFG.dir/22._Generate_Parentheses/backtrack.cpp.obj: ../22.\ Generate\ Parentheses/backtrack.cpp
+
 CMakeFiles/DP_GFG.dir/332._Coin_Change/bottom-up-tabulation.cpp.obj: ../332.\ Coin\ Change/bottom-up-tabulation.cpp
 
 CMakeFiles/DP_GFG.dir/332._Coin_Change/top-down-memoization.cpp.obj: ../332.\ Coin\ Change/top-down-memoization.cpp

@@ -1,24 +1,21 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>
-#include <set>
-#include <unordered_set>
-#include <unordered_map>
 
 using namespace std;
 
-int main() {
+int numDecodings() {
 
     string s = "226";
 
     int n = s.length();
 
     if(n == 0) return 0;
+    if(s[0] == '0') return 0;
 
     vector<int> dp(n + 1, 0);
 
     dp[0] = 1;
-    dp[1] = s[1] == '0' ? 0 : 1;
+    dp[1] = s[1] != '0' ? 1 : 0;
 
     for(int i = 2; i <= s.length(); i++) {
         int first = stoi(s.substr(i - 1, 1));
@@ -34,5 +31,4 @@ int main() {
     }
 
     return dp.back();
-    cout << "Hello" << endl;
 }

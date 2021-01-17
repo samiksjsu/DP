@@ -141,18 +141,31 @@ CMakeFiles/DP_GFG.dir/17._Letter_Combinations_of_a_Phone_Number/backtrack.cpp.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DP_GFG.dir/17._Letter_Combinations_of_a_Phone_Number/backtrack.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\samik\CLionProjects\DP_GFG\17. Letter Combinations of a Phone Number\backtrack.cpp" -o CMakeFiles\DP_GFG.dir\17._Letter_Combinations_of_a_Phone_Number\backtrack.cpp.s
 
-CMakeFiles/DP_GFG.dir/ds/ds.cpp.obj: CMakeFiles/DP_GFG.dir/flags.make
-CMakeFiles/DP_GFG.dir/ds/ds.cpp.obj: ../ds/ds.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\samik\CLionProjects\DP_GFG\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DP_GFG.dir/ds/ds.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DP_GFG.dir\ds\ds.cpp.obj -c C:\Users\samik\CLionProjects\DP_GFG\ds\ds.cpp
+CMakeFiles/DP_GFG.dir/22._Generate_Parentheses/backtrack.cpp.obj: CMakeFiles/DP_GFG.dir/flags.make
+CMakeFiles/DP_GFG.dir/22._Generate_Parentheses/backtrack.cpp.obj: ../22.\ Generate\ Parentheses/backtrack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\samik\CLionProjects\DP_GFG\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DP_GFG.dir/22._Generate_Parentheses/backtrack.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DP_GFG.dir\22._Generate_Parentheses\backtrack.cpp.obj -c "C:\Users\samik\CLionProjects\DP_GFG\22. Generate Parentheses\backtrack.cpp"
 
-CMakeFiles/DP_GFG.dir/ds/ds.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DP_GFG.dir/ds/ds.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\samik\CLionProjects\DP_GFG\ds\ds.cpp > CMakeFiles\DP_GFG.dir\ds\ds.cpp.i
+CMakeFiles/DP_GFG.dir/22._Generate_Parentheses/backtrack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DP_GFG.dir/22._Generate_Parentheses/backtrack.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\samik\CLionProjects\DP_GFG\22. Generate Parentheses\backtrack.cpp" > CMakeFiles\DP_GFG.dir\22._Generate_Parentheses\backtrack.cpp.i
 
-CMakeFiles/DP_GFG.dir/ds/ds.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DP_GFG.dir/ds/ds.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\samik\CLionProjects\DP_GFG\ds\ds.cpp -o CMakeFiles\DP_GFG.dir\ds\ds.cpp.s
+CMakeFiles/DP_GFG.dir/22._Generate_Parentheses/backtrack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DP_GFG.dir/22._Generate_Parentheses/backtrack.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\samik\CLionProjects\DP_GFG\22. Generate Parentheses\backtrack.cpp" -o CMakeFiles\DP_GFG.dir\22._Generate_Parentheses\backtrack.cpp.s
+
+CMakeFiles/DP_GFG.dir/91._Decode_Ways/bottom_up.cpp.obj: CMakeFiles/DP_GFG.dir/flags.make
+CMakeFiles/DP_GFG.dir/91._Decode_Ways/bottom_up.cpp.obj: ../91.\ Decode\ Ways/bottom_up.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\samik\CLionProjects\DP_GFG\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DP_GFG.dir/91._Decode_Ways/bottom_up.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DP_GFG.dir\91._Decode_Ways\bottom_up.cpp.obj -c "C:\Users\samik\CLionProjects\DP_GFG\91. Decode Ways\bottom_up.cpp"
+
+CMakeFiles/DP_GFG.dir/91._Decode_Ways/bottom_up.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DP_GFG.dir/91._Decode_Ways/bottom_up.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\samik\CLionProjects\DP_GFG\91. Decode Ways\bottom_up.cpp" > CMakeFiles\DP_GFG.dir\91._Decode_Ways\bottom_up.cpp.i
+
+CMakeFiles/DP_GFG.dir/91._Decode_Ways/bottom_up.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DP_GFG.dir/91._Decode_Ways/bottom_up.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\samik\CLionProjects\DP_GFG\91. Decode Ways\bottom_up.cpp" -o CMakeFiles\DP_GFG.dir\91._Decode_Ways\bottom_up.cpp.s
 
 # Object files for target DP_GFG
 DP_GFG_OBJECTS = \
@@ -161,7 +174,8 @@ DP_GFG_OBJECTS = \
 "CMakeFiles/DP_GFG.dir/332._Coin_Change/bottom-up-tabulation.cpp.obj" \
 "CMakeFiles/DP_GFG.dir/139._Word_Break/bottom-up.cpp.obj" \
 "CMakeFiles/DP_GFG.dir/17._Letter_Combinations_of_a_Phone_Number/backtrack.cpp.obj" \
-"CMakeFiles/DP_GFG.dir/ds/ds.cpp.obj"
+"CMakeFiles/DP_GFG.dir/22._Generate_Parentheses/backtrack.cpp.obj" \
+"CMakeFiles/DP_GFG.dir/91._Decode_Ways/bottom_up.cpp.obj"
 
 # External object files for target DP_GFG
 DP_GFG_EXTERNAL_OBJECTS =
@@ -171,12 +185,13 @@ DP_GFG.exe: CMakeFiles/DP_GFG.dir/332._Coin_Change/top-down-memoization.cpp.obj
 DP_GFG.exe: CMakeFiles/DP_GFG.dir/332._Coin_Change/bottom-up-tabulation.cpp.obj
 DP_GFG.exe: CMakeFiles/DP_GFG.dir/139._Word_Break/bottom-up.cpp.obj
 DP_GFG.exe: CMakeFiles/DP_GFG.dir/17._Letter_Combinations_of_a_Phone_Number/backtrack.cpp.obj
-DP_GFG.exe: CMakeFiles/DP_GFG.dir/ds/ds.cpp.obj
+DP_GFG.exe: CMakeFiles/DP_GFG.dir/22._Generate_Parentheses/backtrack.cpp.obj
+DP_GFG.exe: CMakeFiles/DP_GFG.dir/91._Decode_Ways/bottom_up.cpp.obj
 DP_GFG.exe: CMakeFiles/DP_GFG.dir/build.make
 DP_GFG.exe: CMakeFiles/DP_GFG.dir/linklibs.rsp
 DP_GFG.exe: CMakeFiles/DP_GFG.dir/objects1.rsp
 DP_GFG.exe: CMakeFiles/DP_GFG.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\samik\CLionProjects\DP_GFG\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable DP_GFG.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\samik\CLionProjects\DP_GFG\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable DP_GFG.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DP_GFG.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
