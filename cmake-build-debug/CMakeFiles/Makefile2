@@ -93,12 +93,12 @@ clean: CMakeFiles/DP_GFG.dir/clean
 CMakeFiles/DP_GFG.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\samik\CLionProjects\DP_GFG\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target DP_GFG"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\samik\CLionProjects\DP_GFG\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target DP_GFG"
 .PHONY : CMakeFiles/DP_GFG.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DP_GFG.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\samik\CLionProjects\DP_GFG\cmake-build-debug\CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\samik\CLionProjects\DP_GFG\cmake-build-debug\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/DP_GFG.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\samik\CLionProjects\DP_GFG\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/DP_GFG.dir/rule

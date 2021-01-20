@@ -1,38 +1,84 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <set>
-#include <unordered_set>
-#include <unordered_map>
+#include "300. Longest Increasing Subsequence/bottom_up.h"
+
 
 using namespace std;
 
-int main() {
+int cherryPickup(vector<vector<int>> &grid) {
 
-    string s = "226";
+    int n = grid.size(), m = grid[0].size();
 
-    int n = s.length();
+    vector<vector<int>> dp(n + 1, vector<int>(m + 1, 0));
 
-    if(n == 0) return 0;
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= m; j++) {
+            if (grid[i - 1][j - 1] == -1) {
+                dp[i][j] = -1;
+                continue;
+            }
 
-    vector<int> dp(n + 1, 0);
+            int top = dp[i - 1][j];
+            int left = dp[i][j - 1];
+            int temp = 0;
 
-    dp[0] = 1;
-    dp[1] = s[1] == '0' ? 0 : 1;
+            if (top > left) {
+                temp = dp[i - 1][j];
+            } else {
+                temp = dp[i][j - 1];
+            }
 
-    for(int i = 2; i <= s.length(); i++) {
-        int first = stoi(s.substr(i - 1, 1));
-        int second = stoi(s.substr(i - 2, 2));
-
-        if(first >= 1 && first <= 9) {
-            dp[i] += dp[i - 1];
-        }
-
-        if(second >= 10 && second <= 26) {
-            dp[i] += dp[i - 2];
+            int val = grid[i - 1][j - 1] + temp;
+            dp[i][j] = val;
         }
     }
 
-    return dp.back();
+    for (int i = n - 1; i >= 0; i--) {
+        for (int j = m - 1; j >= 0; j--) {
+
+
+        }
+    }
+    return dp.back().back();
+}
+
+int result = 0;
+vector<string> paths;
+
+void helper(vector<int> &nums, int currSum, int S, int start, string path) {
+    if (start == nums.size()) {
+        if (currSum == S) {
+            result++;
+            paths.push_back(path);
+        }
+        return;
+    }
+
+    for (int i = start; i < nums.size(); i++) {
+        currSum += nums[i];
+        path.push_back('+');
+        path.push_back(nums[i] + '0');
+        helper(nums, currSum, S, i + 1, path);
+        currSum -= nums[i];
+        path.pop_back();
+        path.pop_back();
+
+        currSum -= nums[i];
+        path.push_back('-');
+        path.push_back(nums[i] + '0');
+        helper(nums, currSum, S, i + 1, path);
+        currSum += nums[i];
+        path.pop_back();
+        path.pop_back();
+    }
+
+}
+
+int main() {
+
+
+    vector<int> nums = {1, 3, 6, 7, 9, 4, 10, 5, 6};
+    cout << lengthOfLIS(nums) << endl;
     cout << "Hello" << endl;
 }

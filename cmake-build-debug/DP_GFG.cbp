@@ -83,10 +83,28 @@
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/139. Word Break/bottom-up.cpp">
 			<Option target="DP_GFG"/>
 		</Unit>
+		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/140. Word Break II/bottom_up.cpp">
+			<Option target="DP_GFG"/>
+		</Unit>
+		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/140. Word Break II/bottom_up.h">
+			<Option target="DP_GFG"/>
+		</Unit>
+		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/1641. Count Sorted Vowel Strings/backtrack.cpp">
+			<Option target="DP_GFG"/>
+		</Unit>
+		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/1641. Count Sorted Vowel Strings/backtrack.h">
+			<Option target="DP_GFG"/>
+		</Unit>
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/17. Letter Combinations of a Phone Number/backtrack.cpp">
 			<Option target="DP_GFG"/>
 		</Unit>
+		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/174. Dungeon Game/bottom_up.cpp">
+			<Option target="DP_GFG"/>
+		</Unit>
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/22. Generate Parentheses/backtrack.cpp">
+			<Option target="DP_GFG"/>
+		</Unit>
+		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/300. Longest Increasing Subsequence/bottom_up.h">
 			<Option target="DP_GFG"/>
 		</Unit>
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/332. Coin Change/bottom-up-tabulation.cpp">
@@ -95,10 +113,19 @@
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/332. Coin Change/top-down-memoization.cpp">
 			<Option target="DP_GFG"/>
 		</Unit>
+		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/416. Partition Equal Subset Sum/bottom_up.h">
+			<Option target="DP_GFG"/>
+		</Unit>
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/91. Decode Ways/bottom_up.cpp">
 			<Option target="DP_GFG"/>
 		</Unit>
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/all_headers.h">
+			<Option target="DP_GFG"/>
+		</Unit>
+		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/ankit/three.h">
+			<Option target="DP_GFG"/>
+		</Unit>
+		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/ankit/two.h">
 			<Option target="DP_GFG"/>
 		</Unit>
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/main.cpp">

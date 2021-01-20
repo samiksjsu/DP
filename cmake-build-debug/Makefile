@@ -169,6 +169,60 @@ DP_GFG/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/139._Word_Break/bottom-up.cpp.s
 .PHONY : 139._Word_Break/bottom-up.cpp.s
 
+140._Word_Break_II/bottom_up.obj: 140._Word_Break_II/bottom_up.cpp.obj
+
+.PHONY : 140._Word_Break_II/bottom_up.obj
+
+# target to build an object file
+140._Word_Break_II/bottom_up.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/140._Word_Break_II/bottom_up.cpp.obj
+.PHONY : 140._Word_Break_II/bottom_up.cpp.obj
+
+140._Word_Break_II/bottom_up.i: 140._Word_Break_II/bottom_up.cpp.i
+
+.PHONY : 140._Word_Break_II/bottom_up.i
+
+# target to preprocess a source file
+140._Word_Break_II/bottom_up.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/140._Word_Break_II/bottom_up.cpp.i
+.PHONY : 140._Word_Break_II/bottom_up.cpp.i
+
+140._Word_Break_II/bottom_up.s: 140._Word_Break_II/bottom_up.cpp.s
+
+.PHONY : 140._Word_Break_II/bottom_up.s
+
+# target to generate assembly for a file
+140._Word_Break_II/bottom_up.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/140._Word_Break_II/bottom_up.cpp.s
+.PHONY : 140._Word_Break_II/bottom_up.cpp.s
+
+1641._Count_Sorted_Vowel_Strings/backtrack.obj: 1641._Count_Sorted_Vowel_Strings/backtrack.cpp.obj
+
+.PHONY : 1641._Count_Sorted_Vowel_Strings/backtrack.obj
+
+# target to build an object file
+1641._Count_Sorted_Vowel_Strings/backtrack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/1641._Count_Sorted_Vowel_Strings/backtrack.cpp.obj
+.PHONY : 1641._Count_Sorted_Vowel_Strings/backtrack.cpp.obj
+
+1641._Count_Sorted_Vowel_Strings/backtrack.i: 1641._Count_Sorted_Vowel_Strings/backtrack.cpp.i
+
+.PHONY : 1641._Count_Sorted_Vowel_Strings/backtrack.i
+
+# target to preprocess a source file
+1641._Count_Sorted_Vowel_Strings/backtrack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/1641._Count_Sorted_Vowel_Strings/backtrack.cpp.i
+.PHONY : 1641._Count_Sorted_Vowel_Strings/backtrack.cpp.i
+
+1641._Count_Sorted_Vowel_Strings/backtrack.s: 1641._Count_Sorted_Vowel_Strings/backtrack.cpp.s
+
+.PHONY : 1641._Count_Sorted_Vowel_Strings/backtrack.s
+
+# target to generate assembly for a file
+1641._Count_Sorted_Vowel_Strings/backtrack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/1641._Count_Sorted_Vowel_Strings/backtrack.cpp.s
+.PHONY : 1641._Count_Sorted_Vowel_Strings/backtrack.cpp.s
+
 17._Letter_Combinations_of_a_Phone_Number/backtrack.obj: 17._Letter_Combinations_of_a_Phone_Number/backtrack.cpp.obj
 
 .PHONY : 17._Letter_Combinations_of_a_Phone_Number/backtrack.obj
@@ -195,6 +249,33 @@ DP_GFG/fast:
 17._Letter_Combinations_of_a_Phone_Number/backtrack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/17._Letter_Combinations_of_a_Phone_Number/backtrack.cpp.s
 .PHONY : 17._Letter_Combinations_of_a_Phone_Number/backtrack.cpp.s
+
+174._Dungeon_Game/bottom_up.obj: 174._Dungeon_Game/bottom_up.cpp.obj
+
+.PHONY : 174._Dungeon_Game/bottom_up.obj
+
+# target to build an object file
+174._Dungeon_Game/bottom_up.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/174._Dungeon_Game/bottom_up.cpp.obj
+.PHONY : 174._Dungeon_Game/bottom_up.cpp.obj
+
+174._Dungeon_Game/bottom_up.i: 174._Dungeon_Game/bottom_up.cpp.i
+
+.PHONY : 174._Dungeon_Game/bottom_up.i
+
+# target to preprocess a source file
+174._Dungeon_Game/bottom_up.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/174._Dungeon_Game/bottom_up.cpp.i
+.PHONY : 174._Dungeon_Game/bottom_up.cpp.i
+
+174._Dungeon_Game/bottom_up.s: 174._Dungeon_Game/bottom_up.cpp.s
+
+.PHONY : 174._Dungeon_Game/bottom_up.s
+
+# target to generate assembly for a file
+174._Dungeon_Game/bottom_up.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DP_GFG.dir\build.make CMakeFiles/DP_GFG.dir/174._Dungeon_Game/bottom_up.cpp.s
+.PHONY : 174._Dungeon_Game/bottom_up.cpp.s
 
 22._Generate_Parentheses/backtrack.obj: 22._Generate_Parentheses/backtrack.cpp.obj
 
@@ -343,9 +424,18 @@ help:
 	@echo ... 139._Word_Break/bottom-up.obj
 	@echo ... 139._Word_Break/bottom-up.i
 	@echo ... 139._Word_Break/bottom-up.s
+	@echo ... 140._Word_Break_II/bottom_up.obj
+	@echo ... 140._Word_Break_II/bottom_up.i
+	@echo ... 140._Word_Break_II/bottom_up.s
+	@echo ... 1641._Count_Sorted_Vowel_Strings/backtrack.obj
+	@echo ... 1641._Count_Sorted_Vowel_Strings/backtrack.i
+	@echo ... 1641._Count_Sorted_Vowel_Strings/backtrack.s
 	@echo ... 17._Letter_Combinations_of_a_Phone_Number/backtrack.obj
 	@echo ... 17._Letter_Combinations_of_a_Phone_Number/backtrack.i
 	@echo ... 17._Letter_Combinations_of_a_Phone_Number/backtrack.s
+	@echo ... 174._Dungeon_Game/bottom_up.obj
+	@echo ... 174._Dungeon_Game/bottom_up.i
+	@echo ... 174._Dungeon_Game/bottom_up.s
 	@echo ... 22._Generate_Parentheses/backtrack.obj
 	@echo ... 22._Generate_Parentheses/backtrack.i
 	@echo ... 22._Generate_Parentheses/backtrack.s
