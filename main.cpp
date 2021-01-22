@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include "300. Longest Increasing Subsequence/bottom_up.h"
+#include "494. Target Sum/bottom-up.h"
 
 
 using namespace std;
@@ -43,42 +43,10 @@ int cherryPickup(vector<vector<int>> &grid) {
     return dp.back().back();
 }
 
-int result = 0;
-vector<string> paths;
-
-void helper(vector<int> &nums, int currSum, int S, int start, string path) {
-    if (start == nums.size()) {
-        if (currSum == S) {
-            result++;
-            paths.push_back(path);
-        }
-        return;
-    }
-
-    for (int i = start; i < nums.size(); i++) {
-        currSum += nums[i];
-        path.push_back('+');
-        path.push_back(nums[i] + '0');
-        helper(nums, currSum, S, i + 1, path);
-        currSum -= nums[i];
-        path.pop_back();
-        path.pop_back();
-
-        currSum -= nums[i];
-        path.push_back('-');
-        path.push_back(nums[i] + '0');
-        helper(nums, currSum, S, i + 1, path);
-        currSum += nums[i];
-        path.pop_back();
-        path.pop_back();
-    }
-
-}
-
 int main() {
 
 
-    vector<int> nums = {1, 3, 6, 7, 9, 4, 10, 5, 6};
-    cout << lengthOfLIS(nums) << endl;
+    vector<int> nums = {1, 1, 1, 1, 1};
+    cout << findTargetSumWays(nums, 3) << endl;
     cout << "Hello" << endl;
 }

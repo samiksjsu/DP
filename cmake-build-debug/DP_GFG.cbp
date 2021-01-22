@@ -116,6 +116,9 @@
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/416. Partition Equal Subset Sum/bottom_up.h">
 			<Option target="DP_GFG"/>
 		</Unit>
+		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/494. Target Sum/bottom-up.h">
+			<Option target="DP_GFG"/>
+		</Unit>
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/91. Decode Ways/bottom_up.cpp">
 			<Option target="DP_GFG"/>
 		</Unit>

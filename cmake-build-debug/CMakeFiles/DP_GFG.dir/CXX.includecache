@@ -6,10 +6,12 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/samik/CLionProjects/DP_GFG/300. Longest Increasing Subsequence/bottom_up.h
+C:/Users/samik/CLionProjects/DP_GFG/494. Target Sum/bottom-up.h
+iostream
+-
 vector
 -
-iostream
+numeric
 -
 
 C:/Users/samik/CLionProjects/DP_GFG/main.cpp
@@ -19,6 +21,6 @@ vector
 -
 algorithm
 -
-300. Longest Increasing Subsequence/bottom_up.h
-C:/Users/samik/CLionProjects/DP_GFG/300. Longest Increasing Subsequence/bottom_up.h
+494. Target Sum/bottom-up.h
+C:/Users/samik/CLionProjects/DP_GFG/494. Target Sum/bottom-up.h
 
