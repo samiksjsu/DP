@@ -6,12 +6,14 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/samik/CLionProjects/DP_GFG/494. Target Sum/bottom-up.h
-iostream
--
+C:/Users/samik/CLionProjects/DP_GFG/282. Expression Add Operators/top-down.h
+
+C:/Users/samik/CLionProjects/DP_GFG/51. N-Queens/backtrack.h
 vector
 -
-numeric
+iostream
+-
+unordered_set
 -
 
 C:/Users/samik/CLionProjects/DP_GFG/main.cpp
@@ -21,6 +23,8 @@ vector
 -
 algorithm
 -
-494. Target Sum/bottom-up.h
-C:/Users/samik/CLionProjects/DP_GFG/494. Target Sum/bottom-up.h
+282. Expression Add Operators/top-down.h
+C:/Users/samik/CLionProjects/DP_GFG/282. Expression Add Operators/top-down.h
+51. N-Queens/backtrack.h
+C:/Users/samik/CLionProjects/DP_GFG/51. N-Queens/backtrack.h
 

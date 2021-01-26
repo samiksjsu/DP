@@ -104,6 +104,9 @@
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/22. Generate Parentheses/backtrack.cpp">
 			<Option target="DP_GFG"/>
 		</Unit>
+		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/282. Expression Add Operators/top-down.h">
+			<Option target="DP_GFG"/>
+		</Unit>
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/300. Longest Increasing Subsequence/bottom_up.h">
 			<Option target="DP_GFG"/>
 		</Unit>
@@ -117,6 +120,12 @@
 			<Option target="DP_GFG"/>
 		</Unit>
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/494. Target Sum/bottom-up.h">
+			<Option target="DP_GFG"/>
+		</Unit>
+		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/51. N-Queens/backtrack.h">
+			<Option target="DP_GFG"/>
+		</Unit>
+		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/518. Coin Change 2/bottom-up.h">
 			<Option target="DP_GFG"/>
 		</Unit>
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/91. Decode Ways/bottom_up.cpp">

@@ -1,7 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include "494. Target Sum/bottom-up.h"
+#include "282. Expression Add Operators/top-down.h"
+#include "51. N-Queens/backtrack.h"
 
 
 using namespace std;
@@ -46,7 +47,7 @@ int cherryPickup(vector<vector<int>> &grid) {
 int main() {
 
 
-    vector<int> nums = {1, 1, 1, 1, 1};
-    cout << findTargetSumWays(nums, 3) << endl;
+    solveNQueens(4);
+
     cout << "Hello" << endl;
 }
