@@ -2,7 +2,6 @@
 #include <vector>
 #include <algorithm>
 #include "282. Expression Add Operators/top-down.h"
-#include "51. N-Queens/backtrack.h"
 
 
 using namespace std;
@@ -46,8 +45,6 @@ int cherryPickup(vector<vector<int>> &grid) {
 
 int main() {
 
-
-    solveNQueens(4);
-
+    addOperators();
     cout << "Hello" << endl;
 }

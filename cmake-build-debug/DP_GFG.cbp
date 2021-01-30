@@ -104,6 +104,9 @@
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/22. Generate Parentheses/backtrack.cpp">
 			<Option target="DP_GFG"/>
 		</Unit>
+		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/221. Maximal Square/bottom-up.h">
+			<Option target="DP_GFG"/>
+		</Unit>
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/282. Expression Add Operators/top-down.h">
 			<Option target="DP_GFG"/>
 		</Unit>
@@ -114,6 +117,9 @@
 			<Option target="DP_GFG"/>
 		</Unit>
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/332. Coin Change/top-down-memoization.cpp">
+			<Option target="DP_GFG"/>
+		</Unit>
+		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/377. Combination Sum IV/bottom-up.h">
 			<Option target="DP_GFG"/>
 		</Unit>
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/416. Partition Equal Subset Sum/bottom_up.h">

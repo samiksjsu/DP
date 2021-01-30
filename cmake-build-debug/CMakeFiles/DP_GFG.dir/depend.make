@@ -24,6 +24,5 @@ CMakeFiles/DP_GFG.dir/332._Coin_Change/top-down-memoization.cpp.obj: ../332.\ Co
 CMakeFiles/DP_GFG.dir/91._Decode_Ways/bottom_up.cpp.obj: ../91.\ Decode\ Ways/bottom_up.cpp
 
 CMakeFiles/DP_GFG.dir/main.cpp.obj: ../282.\ Expression\ Add\ Operators/top-down.h
-CMakeFiles/DP_GFG.dir/main.cpp.obj: ../51.\ N-Queens/backtrack.h
 CMakeFiles/DP_GFG.dir/main.cpp.obj: ../main.cpp
 
