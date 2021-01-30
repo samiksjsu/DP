@@ -6,6 +6,7 @@
 #define DP_GFG_BOTTOM_UP_H
 #include <vector>
 using namespace std;
+
 /**
  * Logic:
  * 1. For every point calculate the largest square that can be formed at that position.
