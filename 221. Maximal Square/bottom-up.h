@@ -6,6 +6,12 @@
 #define DP_GFG_BOTTOM_UP_H
 #include <vector>
 using namespace std;
+/**
+ * Logic:
+ * 1. For every point calculate the largest square that can be formed at that position.
+ * 2. For every point (i, j) the max square that can be formed is equal to min of left, top and top left point + 1.
+ * 3. See added image for better illustration.
+ * */
 
 int maximalSquare(vector<vector<char>>& matrix) {
     vector<vector<int>> dp(matrix.size() + 1, vector<int> (matrix[0].size() + 1, 0));
