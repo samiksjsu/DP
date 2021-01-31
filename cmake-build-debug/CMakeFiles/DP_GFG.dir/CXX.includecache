@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/samik/CLionProjects/DP_GFG/282. Expression Add Operators/top-down.h
+C:/Users/samik/CLionProjects/DP_GFG/85. Maximal Rectangle/left-right-scan.h
+vector
+-
+stack
+-
 
 C:/Users/samik/CLionProjects/DP_GFG/main.cpp
 iostream
@@ -15,6 +19,6 @@ vector
 -
 algorithm
 -
-282. Expression Add Operators/top-down.h
-C:/Users/samik/CLionProjects/DP_GFG/282. Expression Add Operators/top-down.h
+85. Maximal Rectangle/left-right-scan.h
+C:/Users/samik/CLionProjects/DP_GFG/85. Maximal Rectangle/left-right-scan.h
 

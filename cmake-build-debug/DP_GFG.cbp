@@ -137,6 +137,9 @@
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/84. Largest Rectangle in Histogram/left-right-scan.h">
 			<Option target="DP_GFG"/>
 		</Unit>
+		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/85. Maximal Rectangle/left-right-scan.h">
+			<Option target="DP_GFG"/>
+		</Unit>
 		<Unit filename="C:/Users/samik/CLionProjects/DP_GFG/91. Decode Ways/bottom_up.cpp">
 			<Option target="DP_GFG"/>
 		</Unit>
