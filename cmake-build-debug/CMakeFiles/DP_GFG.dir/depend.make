@@ -23,6 +23,6 @@ CMakeFiles/DP_GFG.dir/332._Coin_Change/top-down-memoization.cpp.obj: ../332.\ Co
 
 CMakeFiles/DP_GFG.dir/91._Decode_Ways/bottom_up.cpp.obj: ../91.\ Decode\ Ways/bottom_up.cpp
 
-CMakeFiles/DP_GFG.dir/main.cpp.obj: ../85.\ Maximal\ Rectangle/left-right-scan.h
+CMakeFiles/DP_GFG.dir/main.cpp.obj: ../688.\ Knight\ Probability\ in\ Chessboard/bottom-up.h
 CMakeFiles/DP_GFG.dir/main.cpp.obj: ../main.cpp
 

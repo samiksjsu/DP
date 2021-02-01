@@ -6,10 +6,8 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/samik/CLionProjects/DP_GFG/85. Maximal Rectangle/left-right-scan.h
+C:/Users/samik/CLionProjects/DP_GFG/688. Knight Probability in Chessboard/bottom-up.h
 vector
--
-stack
 -
 
 C:/Users/samik/CLionProjects/DP_GFG/main.cpp
@@ -19,6 +17,6 @@ vector
 -
 algorithm
 -
-85. Maximal Rectangle/left-right-scan.h
-C:/Users/samik/CLionProjects/DP_GFG/85. Maximal Rectangle/left-right-scan.h
+688. Knight Probability in Chessboard/bottom-up.h
+C:/Users/samik/CLionProjects/DP_GFG/688. Knight Probability in Chessboard/bottom-up.h
 

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include "85. Maximal Rectangle/left-right-scan.h"
+#include "688. Knight Probability in Chessboard/bottom-up.h"
 
 
 using namespace std;
@@ -45,6 +45,6 @@ int cherryPickup(vector<vector<int>> &grid) {
 
 int main() {
 
-    driver();
+    driver688();
     cout << "Hello" << endl;
 }
