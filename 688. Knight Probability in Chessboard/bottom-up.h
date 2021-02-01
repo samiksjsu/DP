@@ -14,6 +14,7 @@ using namespace std;
  *    having i, j as curr start.
  * 2. This newI and newJ will be for the next move and hence we store their probability in the 'next' matrix;
  * 3. We keep on doing this till we exhaust the number of moves.
+ * 4. After the moves have ben exhausted, we return the total of all the prob in the curr matrix.
  * */
 
 vector<pair<int, int>> directions {{2, 1}, {2, -1}, {1, -2}, {-1, -2}, {-1, 2}, {1, 2}, {-2, 1}, {-2, -1}};
