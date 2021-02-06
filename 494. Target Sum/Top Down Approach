@@ -1,0 +1,44 @@
+#first convert the problem into a simpler one
+#assigning signs is equivalent to dividing the set into two subsets such that their difference is given target
+# thus s1 - s2 = diff
+# and s1 + s2 = sum
+# if we combine both equations together then we find that 2s1 = diff + sum
+# s1 = (diff+ sum) / 2
+# now we only need to find number of ways we can make sum of s1 from elements in an array
+# for this particular problem, sort the array first
+# if 0 is in the array, then there are two possibilities for it...like 1 if we include it and another 1 if we did not include it
+# so for the position i=1 and j=0, if the nums[0] = 0 then dp[i][j] = 2 else it is 1
+
+class Solution:
+    def findTargetSumWays(self, nums: List[int], S: int) -> int:
+        total_sum = sum(nums)
+        
+        if total_sum < S or (total_sum + S) %2 !=0:
+            return 0
+        
+        target_sum = int((total_sum + S)/2)
+        nums.sort()
+        
+        dp = [ [-1 for i in range(0,target_sum+1)] for j in range(0,len(nums)+1) ]
+        
+        dp[0][0] = 1
+        for i in range(0,len(dp)):
+            for j in range(0,len(dp[0])):
+                if i == 0:
+                    if j !=0:
+                        dp[i][j] = 0
+                        continue
+                    else:
+                        dp[i][j] = 1
+                        continue
+            
+                if i==1 and j==0 and nums[0] == 0:
+                    dp[i][j] = 2
+                    continue
+                
+                if nums[i-1] <= j:
+                    dp[i][j] = dp[i-1][j] + dp[i-1][j-nums[i-1]]
+                else:
+                    dp[i][j] = dp[i-1][j]
+                    
+        return dp[len(nums)][target_sum]
