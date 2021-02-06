@@ -1,0 +1,45 @@
+#problem is similar to finding a subset sum in an array
+#just calculate the sum of all elements in an array and divide by 2
+#if not divisible by 2 then the solution is not possible
+#then find the subset whose sum is half the total sum
+
+
+class Solution:
+    def canPartition(self, nums: List[int]) -> bool:
+        sum1 = sum(nums)
+        
+        if sum1 %2 !=0:
+            return False
+        
+        target_sum = int(sum1/2)
+        return self.subset_sum(nums,target_sum)
+    
+    
+    def subset_sum(self,nums,target_sum):
+        n = len(nums)
+        #initialise an 2d matrix of size (n+1) * (target_sum+1)
+        dp = [[False for i in range(0,target_sum + 1)] for j in range(0,n+1) ]
+        
+        for i in range(0,len(dp)):
+            for j in range(0,len(dp[0])):
+                #initialisation
+                if i == 0 and j!=0:
+                    dp[i][j] = False
+                    continue
+                if j==0:
+                    dp[i][j] = True
+                    continue
+                
+                #check for two choices... if the element is included and if it is not
+                # if not then check for element dp[i-1][j] -> to be True
+                #if included then chck for the element dp[i-1][j-nums[i-1]]
+                if nums[i-1] <= j:
+                    
+                    dp[i][j] = dp[i-1][j - nums[i-1]] or dp[i-1][j]
+                
+                else:
+                    
+                    dp[i][j] = dp[i-1][j]
+        
+        return dp[n][target_sum]
+        
