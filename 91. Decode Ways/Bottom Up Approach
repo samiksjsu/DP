@@ -1,0 +1,29 @@
+# for example "121" the solution can be "1 2 1" or "12 1" or "1 21"
+# so for each character we check we need to check if the character with second last charecter creates a number which is less than 26
+# create a dp array with capacity of length of input string + 1
+# at first if the length of the input string is zero then there is only one way to decode the string is base case
+# dp[1] will be 1 only if first character is not '0'
+# then we need to run a for loop from 2 to length of dp
+# check the character at position i-1 and if it is >=0 and <=9 then dp[i]+=dp[i-1]
+# means check the number of ways needed till dp[i-1]
+# check characters at position i-2 and i create a number which is >= 10 and <= 26
+# if yes then dp[i]+=dp[i-2]
+
+class Solution:
+    
+    def numDecodings(self, s: str) -> int:
+        dp = [0 for i in range(0,len(s)+1)]
+        dp[0] = 1
+        
+        if s[0] != '0':
+            dp[1] = 1
+        
+        for i in range(2,len(s)+1):
+            oneDigit = int(s[i-1:i])
+            twoDigit = int(s[i-2:i])
+            if oneDigit >=1:
+                dp[i]+=dp[i-1]
+            if twoDigit >=10 and twoDigit <= 26:
+                dp[i]+=dp[i-2]
+                
+        return dp[len(s)]
